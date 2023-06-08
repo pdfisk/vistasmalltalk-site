@@ -1,0 +1,329 @@
+.bottomLeftCorner {
+    border-radius: 0px 0px 0px 7px;
+}
+
+.bottomRightCorner {
+    border-radius: 0px 0px 7px 0px;
+}
+
+.buttonBarBorders {
+    border-top: 1px solid #cfcfcf !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 0px !important;
+}
+
+.buttonBarTextBox {
+    padding: 0px 02px 2px 2px !important;
+}
+
+.docs-container {
+}
+
+.gwt-MenuBar {
+  cursor: default;
+}
+
+.gwt-MenuBar .gwt-MenuItem {
+  cursor: default;
+  font-family: Arial Unicode MS, Arial, sans-serif;
+  font-size: 13px;
+}
+
+.gwt-MenuBar .gwt-MenuItem-selected {
+  background: #E3E8F3;
+}
+
+.gwt-MenuBar-horizontal {
+	background: none !important;
+	border: none !important;
+}
+
+.gwt-MenuBar-horizontal .gwt-MenuItem {
+  padding: 5px 10px;
+  vertical-align: bottom;
+  color: #000;
+  font-weight: bold;
+}
+
+.gwt-MenuBar-horizontal .gwt-MenuItemSeparator {
+  width: 1px;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  border-left: 1px solid #ccc;
+  background: none !important;
+  background-color: #fbdbb7 !important;
+}
+
+.gwt-MenuBar-horizontal .gwt-MenuItemSeparator .menuSeparatorInner {
+  width: 1px;
+  height: 1px;
+  background: none !important;
+  background-color: #fbdbb7 !important;
+}
+
+.gwt-MenuBar-vertical {
+  margin-top: 0px;
+  margin-left: 0px;
+  background: none !important;
+  background-color: #fbdbb7 !important;
+}
+
+.gwt-MenuBar-vertical table {
+  border-collapse: collapse;
+}
+
+.gwt-MenuBar-vertical .subMenuIcon-selected {
+  background: none !important;
+  background-color: #fbdbb7 !important;
+}
+
+.gwt-MenuBar-vertical .gwt-MenuItem {
+  padding: 2px 40px 2px 1px;
+  background: none !important;
+  background-color: #fbdbb7 !important;
+}
+
+.gwt-MenuBar-vertical .gwt-MenuItemSeparator {
+  padding: 2px 0px;
+  background: none !important;
+  background-color: #fbdbb7 !important;
+}
+
+.gwt-MenuBar-vertical .gwt-MenuItemSeparator .menuSeparatorInner {
+  height: 1px;
+  padding: 0px;
+  border: 0px;
+  border-top: 1px solid #ccc;
+  overflow: hidden;
+  background: none !important;
+  background-color: #fbdbb7 !important;
+}
+
+.gwt-MenuBar-vertical .subMenuIcon {
+  padding-right: 4px;
+}
+
+.gwt-MenuBar-vertical .subMenuIcon-selected {
+  background: #E3E8F3;
+}
+
+.gwt-MenuBarPopup  {
+  /* background: none !important; */
+  /* background-color: #fbdbb7 !important; */
+  z-index: 10000 !important;
+}
+
+.gwt-MenuBarPopup .menuPopupTopCenter {
+  background: none !important;
+  background-color: #fbdbb7 !important;
+}
+
+.gwt-MenuBarPopup .menuPopupBottomCenter {
+  background: none !important;
+  background-color: #fbdbb7 !important;
+}
+
+.gwt-MenuBarPopup .menuPopupMiddleLeft {
+  background: none !important;
+  background-color: #fbdbb7 !important;
+}
+
+.gwt-MenuBarPopup .menuPopupMiddleRight {
+  background: none !important;
+  background-color: #fbdbb7 !important;
+}
+
+.gwt-MenuBarPopup .menuPopupTopLeftInner {
+  width: 5px;
+  height: 5px;
+  zoom: 1;
+  background: none !important;
+  background-color: #fbdbb7 !important;
+}
+
+.gwt-MenuBarPopup .menuPopupTopRightInner {
+  width: 8px;
+  height: 5px;
+  zoom: 1;
+  background: none !important;
+  background-color: #fbdbb7 !important;
+}
+
+.gwt-MenuBarPopup .menuPopupBottomLeftInner {
+  width: 5px;
+  height: 8px;
+  zoom: 1;
+  background: none !important;
+  background-color: #fbdbb7 !important;
+}
+
+.gwt-MenuBarPopup .menuPopupBottomRightInner {
+  width: 8px;
+  height: 8px;
+  zoom: 1;
+  background: none !important;
+  background-color: #fbdbb7 !important;
+}
+
+.gwt-MenuBarPopup .menuPopupTopLeft {
+  background: none !important;
+  background-color: #fbdbb7 !important;
+}
+
+.gwt-MenuBarPopup .menuPopupTopRight {
+  background: none !important;
+  background-color: #fbdbb7 !important;
+}
+
+.gwt-MenuBarPopup .menuPopupBottomLeft {
+  background: none !important;
+  background-color: #fbdbb7 !important;
+}
+
+.gwt-MenuBarPopup .menuPopupBottomRight {
+  background: none !important;
+  background-color: #fbdbb7 !important;
+}
+
+.gwt-menuItem-disabled {
+    background-color: dimgrey !important;
+    color: linen !important;
+    opacity: 1 !important;
+}
+
+.gwt-SplitLayoutPanel-HDragger {
+  background: #e7e7e7 url(images/thumb_vertical.png) center center no-repeat;
+  cursor: col-resize;
+}
+
+.gwt-SplitLayoutPanel-VDragger {
+  background: #e7e7e7 url(images/thumb_horz.png) center center no-repeat;
+  cursor: row-resize;
+}
+
+.headerBarBorders {
+    border-bottom: 1px solid #cfcfcf;
+    cursor: move;
+}
+
+.listPanel {
+    background-color: white;
+    font-family: monospace, sans !important;
+    font-size: 14px;
+    padding: 0px !important;
+}
+
+.listPanel:focus {
+    outline: none !important;
+}
+
+.listPanelItem {
+    padding: 1px 2px;
+    cursor: pointer;
+}
+
+.listPanelItemSelected {
+    background-color: #e0e0e0;
+}
+
+.mobileDocsContent {
+    padding: 0px !important;
+}
+
+.navbarMenuItem {
+  color: #283FA8 !important;
+  cursor: pointer !important;
+}
+
+.navbarMenuItemDisabled {
+  color: #slategray !important;
+  opacity: 0.5 !important;
+  cursor: default !important;
+}
+
+.navbarSubMenu {
+  background-color: #fbdbb7;
+}
+
+.textField {
+    color: #00008b !important; /* dark slate gray */
+    font-family: 'Inconsolata', monospace !important;
+    font-size: 14px !important;
+    outline: none !important;
+    resize: none !important;
+}
+
+.textPanel {
+    border: none !important;
+    color: #00008b !important; /* dark slate gray */
+    font-family: 'Inconsolata', monospace !important;
+    font-size: 13px !important;
+    outline: none !important;
+    resize: none !important;
+}
+
+.topLeftCorner {
+    border-radius: 7px 0px 0px 0px;
+}
+
+.topRightCorner {
+    border-radius: 0px 7px 0px 0px;
+}
+
+.windowBarButton {
+    background: none !important;
+    bottom: 2px !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 13px !important;
+    color: #DAE5B3 !important;
+    border: none !important;
+    border-bottom: none !important;
+    cursor: pointer !important;
+    position: relative !important;
+}
+
+.windowBarCheckbox {
+    margin-right: 7px !important;
+}
+
+.windowBarCheckbox input {
+    bottom: -2px !important;
+    position: relative !important;
+}
+
+.windowBarText {
+    border: none !important;
+    font-family: monospace, sans !important;
+    font-size: 13px !important;
+    outline: none !important;
+}
+
+.windowCloseButton {
+    cursor: pointer !important;
+}
+
+.windowMaximizeButton {
+    cursor: pointer !important;
+}
+
+.windowMinimizeButton {
+    cursor: pointer !important;
+}
+
+.windowGrayStyle {
+    border: 2px solid #ac869d !important;
+    border-radius: 7px !important;
+    padding: 0px !important;
+}
+
+.windowTitle {
+    color: #DAE5B3 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300;
+    font-size: 13px;
+    cursor: pointer !important;
+}
+

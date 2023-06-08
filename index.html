@@ -1,0 +1,60 @@
+<!doctype html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#FFFFFF"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" type="image/png" href="icons/logo.png">
+    <link rel="shortcut icon" type="image/png" href="icons/logo.png"/>
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <title>Vista Python</title>
+    <script type="text/javascript" src="js/mobileredirect.js"></script>
+    <script type="text/javascript" language="javascript" src="vista/vista.nocache.js"></script>
+</head>
+
+<body>
+
+<noscript>
+    <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+        Your web browser must have JavaScript enabled
+        in order for this application to display correctly.
+    </div>
+</noscript>
+
+<script type="module">
+        import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.16.0/firebase-app.js'
+        import { getAuth, onAuthStateChanged, signInAnonymously, signOut } from 'https://www.gstatic.com/firebasejs/9.16.0/firebase-auth.js'
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-analytics.js";
+        import { addDoc, collection, deleteDoc, getDoc, getDocs, getFirestore, query, updateDoc, where } from 'https://www.gstatic.com/firebasejs/9.16.0/firebase-firestore.js';
+        var assignFn = function(data) {
+            return Object.assign({}, data);
+        };
+        globalThis.Firebase = {
+            getAnalytics: getAnalytics,
+            getAuth: getAuth,
+            initializeApp: initializeApp,
+            onAuthStateChanged: onAuthStateChanged,
+            signInAnonymously: signInAnonymously,
+            signOut: signOut
+        };
+        globalThis.FirebaseFirestore = {
+            addDoc: addDoc,
+            assignFn: assignFn,
+            collection: collection,
+            deleteDoc: deleteDoc,
+            getDoc: getDoc,
+            getDocs: getDocs,
+            getFirestore: getFirestore,
+            query: query,
+            updateDoc: updateDoc,
+            where: where
+        };
+
+</script>
+
+<script src="js/ace.js"></script>
+
+</body>
+</html>
